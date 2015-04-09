@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="2dp"
+     android:background="#ecf0f1"
+     
+    >
+
+
+<!--     <ImageView -->
+<!--         android:id="@+id/icon" -->
+<!--         android:layout_width="25dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:layout_centerVertical="true" -->
+<!--         android:layout_marginLeft="12dp" -->
+<!--         android:layout_marginRight="12dp" -->
+<!--         android:contentDescription="@string/desc_list_item_icon" -->
+<!--         android:src="@drawable/ic_home"
+ android:textColor="@color/list_item_title"
+ /> -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+     android:textColor="#3498db"
+        android:paddingRight="7dp"
+       android:paddingBottom="7dp"
+        android:paddingLeft="1dp"
+        android:text="Item value"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+       
+     />
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignParentRight="true"
+        android:padding="2dp"
+        android:text="Small Text"
+        android:textColor="#Aaa"
+        android:textSize="10sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title"
+        android:text="This note will have all"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  
+        <View
+    android:id="@+id/border"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_alignParentBottom="true"
+    android:background="#FFF" />
+   
+
+</RelativeLayout>

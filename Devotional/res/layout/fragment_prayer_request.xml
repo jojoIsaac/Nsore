@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="@drawable/appbg"
+    tools:context="com.appsol.apps.nsoredevotional.NotesFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+   
+   
+
+    
+
+<LinearLayout 
+    android:id="@+id/empty_notes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal"
+    android:paddingTop="30dp" >
+
+    <ImageView
+        android:id="@+id/imgeventBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_nsore_prayer_line" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You don\&apos;t have any Prayer Request"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/txtdevotionstatus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:padding="5dp"
+    
+    android:text="As we go through life, we are faced with issues. Ask your church to support you in prayers"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+<!--   -->
+<Button
+    android:id="@+id/btnx"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="40dp"
+    android:background="#333"
+   
+    android:text="Add your first Prayer Request"
+    android:padding="5dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#FFF" />
+
+</LinearLayout>
+  <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+ <ProgressBar
+     android:id="@+id/progressbarLoad"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:indeterminateDrawable="@drawable/loader_1" />
+
+<!--  <Button -->
+<!--      android:id="@+id/btnnew" -->
+<!--      android:layout_width="match_parent" -->
+<!--      android:layout_height="wrap_content" -->
+<!--      android:layout_alignParentBottom="true" -->
+<!--      android:layout_marginBottom="5dp" -->
+ 
+<!--      android:background="#333" -->
+<!--      android:drawableLeft="@drawable/add_notes" -->
+<!--      android:text="Add Note" -->
+<!--      android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!--      android:textColor="#FFF" /> -->
+        
+</RelativeLayout>
+    
+

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+     android:background="@drawable/appbg"
+    >
+<!-- 01073237586 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        >
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:background="#FFF"
+            android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtrequestContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="8dp"
+                    android:text="devotion Title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/feed_item_profile_name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtChurchName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </LinearLayout>
+        </LinearLayout>
+       
+    </LinearLayout>
+
+    
+
+    
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+  
+  
+    android:layout_below="@+id/linearLayout1" >
+    
+      <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+       android:longClickable="true"
+         >
+    </ListView>
+</LinearLayout>
+   <ProgressBar
+     android:id="@+id/progressbarLoad"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:indeterminateDrawable="@drawable/loader_1" />
+
+</RelativeLayout>

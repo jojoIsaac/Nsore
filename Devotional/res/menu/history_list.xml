@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsols.nsoredevotionalapp.HistoryList" >
+
+    <item
+        android:id="@+id/mn_open"
+        android:orderInCategory="100"
+        android:title="Open Devotion"
+        />
+    
+ <item
+        android:id="@+id/mn_bookmark"
+        android:orderInCategory="100"
+        android:title="Bookmark"
+    />
+       <item
+        android:id="@+id/mn_Share_devotion"
+        android:orderInCategory="100"
+        android:title="Share Devotion"
+        />
+       
+</menu>

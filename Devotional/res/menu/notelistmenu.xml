@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsols.nsoredevotionalapp.HistoryList" >
+
+  
+    
+    <item
+        android:id="@+id/mn_add_note"
+        android:orderInCategory="100"
+        android:title="Add Note"
+        android:icon="@drawable/ic_white_nsore_edit"
+  android:showAsAction="ifRoom"
+         app:showAsAction="ifRoom"
+        />
+    
+ 
+     
+       
+</menu>

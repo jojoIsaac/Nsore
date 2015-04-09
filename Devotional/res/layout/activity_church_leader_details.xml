@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/appbg"
+    android:layout_height="match_parent" >
+<!--     android:background="#E6E9ED" -->
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context="com.appsols.nsoredevotionalapp.ChurchBranchActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+         
+          <com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView
+                 android:id="@+id/profileImage"
+             android:layout_width="110dp"
+             android:layout_height="110dp"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginTop="10dp"
+             android:src="@drawable/mobile"
+                android:scaleType="fitCenter" >
+            </com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView>
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical" >
+
+             <TextView
+             android:id="@+id/textname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="20dp"
+             android:text="Medium Text"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+             <TextView
+                 android:id="@+id/txtPosition"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:text="Medium Text"
+                 android:textStyle="bold"
+                 android:textColor="#222"
+                 android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         </LinearLayout>
+
+         </LinearLayout>
+            
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/roundlayout"
+    android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtbn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+               android:textStyle="bold"
+                android:text="Profile"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" />
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCC"
+                android:id="@+id/divider"
+                />
+            
+            <TextView
+                android:id="@+id/txtdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:text="location"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#555" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsols.nsoredevotionalapp.HistoryList" >
+
+    <item
+        android:id="@+id/mn_Details"
+        android:orderInCategory="100"
+        android:title="Preview Branch"
+        />
+    
+ <item
+        android:id="@+id/mn_set_as_branch"
+        android:orderInCategory="100"
+        android:title="Join Branch"
+    />
+      
+       
+</menu>

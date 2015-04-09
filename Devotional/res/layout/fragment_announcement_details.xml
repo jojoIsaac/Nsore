@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/appbg"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appsols.nsoredevotionalapp.ChurchBranchActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/roundlayout"
+        android:orientation="vertical" >
+         <LinearLayout 
+     android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+
+            </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:id="@+id/layouthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+            
+            
+            
+            
+            
+            
+            
+<LinearLayout 
+     android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+
+<!--      <TextView -->
+<!--          android:id="@+id/txtreadingsTitle" -->
+<!--          android:layout_width="match_parent" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:background="@drawable/abc_ab_transparent_dark_holo" -->
+<!--          android:text="Date" -->
+<!--          android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+       
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+                android:text="location"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#222" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/layoutmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+          
+            android:orientation="horizontal"
+            android:padding="6dp" >
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/layoutreflex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/txtf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#95a5a6"
+                android:text="Details"
+                 android:textStyle="normal"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+<View 
+    android:background="#CCC"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    />
+
+            <TextView
+                android:id="@+id/txtdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="2dp"
+                android:text="God number one passion is to save souls. He proved his commitmentsGod number one passion is to save souls. He proved his commitments h God number one passion is to save souls. He proved his commitments b God number one passion is to save souls. He proved his commitments"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#777"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+        
+     <LinearLayout
+             android:id="@+id/layout1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:orientation="vertical"
+             android:padding="6dp" >
+
+             <TextView
+                 android:id="@+id/txtDateadded"
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_gravity="right"
+                 android:layout_weight="1"
+                 android:padding="2dp"
+                 android:text="05486969696"
+                 android:textSize="10sp"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="#999" />
+
+         </LinearLayout>
+      
+        
+         
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+
+

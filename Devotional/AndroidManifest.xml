@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appsol.apps.devotional"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- GCM connects to Internet Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.appsol.apps.devotional.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.appsol.apps.devotional.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/nsore_bg_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity android:name="com.facebook.LoginActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".LaunchActivity"
+            android:label="@string/title_activity_launch"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyFriends"
+            android:label="Friends"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyRequests"
+            android:label="Friend Requests"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- <application -->
+        <!-- android:allowBackup="true" -->
+        <!-- android:icon="@drawable/ic_launcher" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:theme="@style/AppTheme" > -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!-- android:configChanges="orientation|screenSize" -->
+
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".ProgressActivity"
+            android:label="Church Profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CreateNoteActivity"
+            android:label="Personal Note" >
+        </activity>
+        <activity
+            android:name=".EventDetails"
+            android:label="Personal Note" >
+        </activity>
+        <activity
+            android:name=".ShareTestimony"
+            android:label="Share your Testimony" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.appsol.apps.devotional" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+
+        <activity
+            android:name=".UserLoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".RegisterationActivity"
+            android:label="@string/title_activity_registeration"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PickChurchActivity"
+            android:label="Church Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DevotionDetailActivity"
+            android:label="@string/title_activity_devotion_detail" >
+        </activity>
+        <activity
+            android:name=".ChurchLeaderDetails"
+            android:label="@string/title_activity_church_leader_details" >
+        </activity>
+        <activity
+            android:name=".BranchDetailActivity"
+            android:label="@string/title_activity_branch_detail" >
+        </activity>
+        <activity
+            android:name=".ExpandableActivity"
+            android:label="@string/title_activity_expandable" >
+        </activity>
+        <activity
+            android:name=".UserprofileImageActivity"
+            android:label="@string/title_activity_userprofile_image" >
+        </activity>
+        <activity
+            android:name=".VerifyCationActivity"
+            android:label="@string/title_activity_verify_cation" >
+        </activity>
+        <activity
+            android:name=".MyEventsActivity"
+            android:label="@string/title_activity_my_events" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".ShareActivity"
+            android:label="@string/title_activity_share"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ChooseChurch"
+            android:label="@string/title_activity_choose_church" >
+        </activity>
+
+        <receiver
+            android:name=".AlarmScheduler"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+        <receiver
+            android:name=".DeviceBootReceiver"
+            android:enabled="false"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SubscriptionActivity"
+            android:label="@string/title_activity_subscription" >
+        </activity>
+        <activity
+            android:name=".SubsChurchDetailsActivity"
+            android:label="@string/title_activity_subs_church_details" >
+        </activity>
+        <activity
+            android:name=".SubscribedDevotionsActivity"
+            android:label="@string/title_activity_subscribed_devotions" >
+        </activity>
+        <activity
+            android:name=".SubscribeChurchBranchFragment"
+            android:label="Church Branches" >
+        </activity>
+        <activity
+            android:name=".DevotionDiscussions"
+            android:label="@string/title_activity_devotion_discussions" >
+        </activity>
+        <activity
+            android:name="com.appsol.login.Entry"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.appsol.login.FragmentCountries"
+            android:label=" " >
+        </activity>
+        <activity
+            android:name=".FaceBookSignActivity"
+            android:label="@string/title_activity_face_book_sign" >
+        </activity>
+        <activity
+            android:name=".NsoreUserDetailsActivity"
+            android:label="User Profile" >
+        </activity>
+        <activity android:name=".NsoreGroupMembers" >
+        </activity>
+        <activity
+            android:name=".ChurchGroupsActivity"
+            android:label="@string/title_activity_church_groups"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GroupDetailsActivity"
+            android:label="@string/title_activity_group_details"
+            android:parentActivityName=".ChurchGroupsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appsol.apps.devotional.ChurchGroupsActivity" />
+        </activity>
+        <activity
+            android:name=".ChurchGroupFeedComment"
+            android:label="Comment on post"
+            android:parentActivityName=".ChurchGroupsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appsol.apps.devotional.ChurchGroupsActivity" />
+        </activity>
+        <activity
+            android:name=".BranchWeeklyActivities"
+            android:label="@string/title_activity_branch_weekly_activities"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!--
+             When the soft keyboard is showing the views of this activity should be resized in the
+             remaining space so that inline searching can take place without having to dismiss the
+             keyboard to see all the content. Therefore windowSoftInputMode is set to
+             adjustResize.
+        -->
+        <activity
+            android:name="com.appsol.sharewithcontact.ui.ContactsListActivity"
+            android:label="Invite Friend"
+            android:windowSoftInputMode="adjustResize" >
+
+            <!--
+                 Add intent-filter for search intent action and specify searchable configuration
+                 via meta-data tag. This allows this activity to receive search intents via the
+                 system hooks. In this sample this is only used on older OS versions (pre-Honeycomb)
+                 via the activity search dialog. See the Search API guide for more information:
+                 http://developer.android.com/guide/topics/search/search-dialog.html
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_contacts" />
+        </activity>
+        <activity
+            android:name="com.appsol.sharewithcontact.ui.ContactDetailActivity"
+            android:label="@string/activity_contact_detail"
+            android:parentActivityName="com.appsol.sharewithcontact.ui.ContactsListActivity" >
+
+            <!--
+                 Define hierarchical parent of this activity, both via the system
+                 parentActivityName attribute (added in API Level 16) and via meta-data annotation.
+                 This allows use of the support library NavUtils class in a way that works over
+                 all Android versions. See the "Tasks and Back Stack" guide for more information:
+                 http://developer.android.com/guide/components/tasks-and-back-stack.html
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.appsol.sharewithcontact.ui.ContactsListActivity" />
+        </activity>
+        <activity
+            android:name=".PosttoNsoreGroup"
+            android:label="@string/title_activity_postto_nsore_group" >
+        </activity>
+        <activity
+            android:name=".PostDetails"
+            android:label="@string/title_activity_post_details" >
+        </activity>
+    </application>
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>

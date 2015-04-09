@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+     android:background="@drawable/appbg"
+    tools:context="com.appsol.apps.nsoredevotional.TestimoniesCommunityFragment" >
+	
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/lstTestimonies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:choiceMode="singleChoice"
+        android:dividerHeight="0.4dp"
+        
+        android:divider="@color/list_divider2"
+        
+        android:listSelector="@drawable/list_selector"
+       
+         >
+    </ListView>
+
+ <ProgressBar
+     android:id="@+id/progressbarLoad"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:indeterminateDrawable="@drawable/loader_1" />
+
+</RelativeLayout>

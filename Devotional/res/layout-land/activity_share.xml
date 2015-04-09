@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E9ED"
+    android:orientation="vertical"
+    tools:context="com.appsol.apps.nsoredevotional.AboutPageFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+  
+    <LinearLayout
+        android:id="@+id/lview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+       <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="106dp"
+             android:layout_height="106dp"
+             android:src="@drawable/appico" />
+   
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:autoLink="all"
+            android:paddingTop="5dp"
+            android:text="Like this application? Invite a friend to try out the Nsore Devotional application."
+            android:textColor="#000"
+            android:textColorLink="#00baff" />
+
+    </LinearLayout>
+    
+    
+         <LinearLayout
+            android:id="@+id/layoutmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         
+       
+            android:orientation="horizontal"
+               android:layout_marginTop="20dp"
+            android:padding="1dp" >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:orientation="vertical"
+    android:id="@+id/facebookShare"
+    android:layout_weight="0.5"
+  
+    
+     >
+
+             <ImageButton
+                 android:id="@+id/imgfacebook"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:src="@drawable/facebook" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="Share on Facebook" />
+
+</LinearLayout>
+            
+<LinearLayout
+    android:id="@+id/twitershare"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:orientation="vertical"
+    android:layout_weight="0.5"
+    android:padding="2dp" >
+
+             <ImageButton
+                 android:id="@+id/imgTwitter"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:src="@drawable/twitter" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="Share on Twiter" />
+
+</LinearLayout>
+
+
+        </LinearLayout>
+
+         
+         
+         
+         
+                <LinearLayout
+            android:id="@+id/layoutmessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         
+       
+            android:orientation="horizontal"
+               android:layout_marginTop="20dp"
+            android:padding="1dp" >
+
+<LinearLayout
+    android:id="@+id/AllShare"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.64"
+
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+             <ImageButton
+                 android:id="@+id/imgAllShares"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:src="@drawable/shareapp" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                
+                 android:text="Share App" />
+
+</LinearLayout>
+            
+<LinearLayout
+    android:id="@+id/emailshare"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_weight="0.33"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+             <ImageButton
+                 android:id="@+id/imgemailShare"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:src="@drawable/emailshare" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:text="Email a Friend" />
+
+</LinearLayout>
+
+
+        </LinearLayout>
+    
+
+     
+    
+</LinearLayout>
+

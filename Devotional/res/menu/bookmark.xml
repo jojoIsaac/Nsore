@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsol.apps.nsoredevotional.BookmarkActivity" >
+
+    
+    <item 
+        android:id="@+id/mn_clear"
+        android:title="@string/clear"
+        android:icon="@drawable/abc_ic_clear"
+       app:showAsAction="ifRoom"
+        />
+
+</menu>

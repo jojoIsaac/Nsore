@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/navigationbanner"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp" >
+
+        <com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView
+            android:id="@+id/churchlogo"
+         android:layout_width="@dimen/feed_item_profile_pics"
+                android:layout_height="@dimen/feed_item_profile_pics"
+                android:scaleType="fitCenter" 
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_launcher1" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="15dp"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtgroupname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/txtchurchname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        
+
+        <Button
+            android:id="@+id/Button02"
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+             style="?android:attr/buttonStyleSmall"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_nsore_info"
+            android:text="  About  "
+            android:textColor="@color/action_bar_background" 
+            android:padding="6dp"
+            />
+
+        <Button
+            android:id="@+id/btngroupmember"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_nsore_group"
+            android:text="  Members  "
+            android:textColor="@color/action_bar_background"
+android:padding="6dp"
+/>
+
+        <Button
+            android:id="@+id/btntoggle_status"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_nsore_cancel"
+            android:padding="6dp"
+            android:text="  Active"
+            android:textColor="@color/action_bar_background" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/appbg"
+        android:layout_below="@+id/linearLayout1"
+ 
+        android:orientation="vertical" >
+    <android.support.v4.widget.SwipeRefreshLayout
+    
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+      <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" />
+      </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+ <ProgressBar
+     android:id="@+id/progressbarLoad"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:indeterminateDrawable="@drawable/loader_1" />
+</RelativeLayout>

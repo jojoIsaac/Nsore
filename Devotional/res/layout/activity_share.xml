@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbg"
+    android:orientation="vertical"
+    tools:context="com.appsol.apps.nsoredevotional.AboutPageFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+  
+    <LinearLayout
+        android:id="@+id/lview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="horizontal"
+        android:padding="6dp" >
+
+       <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="106dp"
+             android:layout_height="106dp"
+             android:src="@drawable/nsore_bg_logo" />
+   
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:autoLink="all"
+            android:paddingTop="5dp"
+            android:text="Like this application? Invite a friend to try out the Nsore Devotional application."
+            android:textColor="#000"
+            android:textColorLink="#00baff" />
+
+    </LinearLayout>
+     <LinearLayout
+              android:id="@+id/layoutMenus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+             
+              android:orientation="vertical"
+              android:padding="6dp" >
+        
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/roundlayout" 
+     android:padding="12dp"
+    android:orientation="horizontal" >
+
+     <TextView
+         android:id="@+id/imgContact"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center"
+         android:drawableLeft="@drawable/ic_share_via_contact"
+         android:drawableRight="@drawable/arrow"
+         android:padding="1dp"
+         android:text="    Share with contact"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/text_color"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+    
+</LinearLayout>
+         
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/roundlayout" 
+     android:padding="12dp"
+     android:layout_marginTop="2dp"
+    android:orientation="horizontal" >
+
+     <TextView
+         android:id="@+id/imgfacebook" 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center"
+         android:drawableLeft="@drawable/facebook"
+         android:drawableRight="@drawable/arrow"
+         android:padding="1dp"
+         android:text="      Share On Facebook"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/text_color"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+    
+</LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+          android:background="@drawable/roundlayout"
+          android:padding="12dp"
+          android:orientation="horizontal" >
+
+     <TextView
+         android:id="@+id/imgTwitter"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center"
+         android:drawableLeft="@drawable/twitter"
+         android:drawableRight="@drawable/arrow"
+         android:padding="1dp"
+         android:text="      Share On Twitter"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/text_color"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+    
+</LinearLayout>
+    
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="2dp"
+           android:background="@drawable/roundlayout"
+           android:padding="12dp"
+           android:orientation="horizontal" >
+
+     <TextView
+         android:id="@+id/imgemailShare"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:drawableLeft="@drawable/emailshare"
+         android:drawableRight="@drawable/arrow"
+         android:padding="1dp"
+         android:text="     Email a Friend"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/text_color"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+    
+</LinearLayout>
+      
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="2dp"
+           android:padding="12dp"
+           android:background="@drawable/roundlayout"
+           android:orientation="horizontal" >
+ 
+     <TextView
+         android:id="@+id/imgAllShares"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:drawableLeft="@drawable/shareapp"
+         android:drawableRight="@drawable/arrow"
+         android:padding="1dp"
+         android:text="     Share App"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/text_color"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+    
+</LinearLayout>
+      
+      
+    
+</LinearLayout>
+    
+<!--          <LinearLayout -->
+<!--             android:id="@+id/layoutmessage" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+         
+       
+<!--             android:orientation="horizontal" -->
+<!--                android:layout_marginTop="20dp" -->
+<!--             android:padding="1dp" > -->
+
+<!-- <LinearLayout -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:padding="2dp" -->
+<!--     android:orientation="vertical" -->
+<!--     android:id="@+id/facebookShare" -->
+<!--     android:layout_weight="0.5" -->
+  
+    
+<!--      > -->
+
+<!--              <ImageButton -->
+<!--                  android:id="@+id/imgfacebook" -->
+<!--                  android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:layout_gravity="center_horizontal" -->
+<!--                  android:src="@drawable/facebook" /> -->
+
+<!--              <TextView -->
+<!--                  android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:layout_gravity="center_horizontal" -->
+<!--                  android:text="Share on Facebook" /> -->
+
+<!-- </LinearLayout> -->
+            
+<!-- <LinearLayout -->
+<!--     android:id="@+id/twitershare" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:layout_marginLeft="20dp" -->
+<!--     android:orientation="vertical" -->
+<!--     android:layout_weight="0.5" -->
+<!--     android:padding="2dp" > -->
+
+<!--              <ImageButton -->
+<!--                  android:id="@+id/imgTwitter" -->
+<!--                  android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:layout_gravity="center_horizontal" -->
+<!--                  android:src="@drawable/twitter" /> -->
+
+<!--              <TextView -->
+<!--                  android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:layout_gravity="center_horizontal" -->
+<!--                  android:text="Share on Twiter" /> -->
+
+<!-- </LinearLayout> -->
+
+
+<!--         </LinearLayout> -->
+    
+
+     
+    
+</LinearLayout>
+

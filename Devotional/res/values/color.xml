@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="holo_blue">#FF33B5E5</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#ecf0f1</color>
+    <!-- <color name="list_background_pressed">#992416</color> -->
+    <color name="list_background_pressed">#ecf0f1</color>
+    <color name="list_divider2">#f7f7f7</color>
+    <color name="list_divider">#555</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="text_color">#434A54</color>
+    <color name="row2">#f7f7f7</color>
+    <color name="row1">#fff</color>
+    <color name="textcolor">#2c3e50</color>
+    <color name="textColor">#FFF</color>
+    <color name="textFieldColor">#000</color>
+    <color name="textShadow">#FFF</color>
+    <color name="listViewBg">#DADFEE</color>
+    <color name="sendLightColor">#8897BF</color>
+    <color name="sendMeduimColor">#5D6CA5</color>
+    <color name="sendDarkColor">#515F9F</color>
+    <color name="barDarkColor">#CECECE</color>
+    <color name="barMeduimColor">#DFDEE0</color>
+    <color name="barLightColor">#F2F2F2</color>
+    <color name="list_selected_background">#ecf0f1</color>
+    <color name="currentDevotion_marker">#800080</color>
+    <color name="normalDevColor">#3498db</color>
+
+    <!-- Colors for the bookmark pages -->
+    <color name="DevotionBookmarkColor_A">#c0392b</color>
+    <color name="DevotionBookmarkColor_B">#1abc9c</color>
+    <color name="DevotionBookmarkColor_C">         #e67e22</color>
+    <color name="DevotionBookmarkColor_D">         #8e44ad</color>
+    <color name="note_lines">#3498db</color>
+    <color name="color_preloader_start">#000000</color>
+    <color name="color_preloader_center">#000000</color>
+    <color name="color_preloader_end">#ff56a9c7</color>
+
+    
+    
+    
+      
+    
+    <color name="com_shamanland_facebook_button_blue_normal_start">#5975b0</color>
+    <color name="com_shamanland_facebook_button_blue_normal_end">#50699e</color>
+    <color name="com_shamanland_facebook_button_blue_focused_start">#7a90bf</color>
+    <color name="com_shamanland_facebook_button_blue_focused_end">#6982b7</color>
+    <color name="com_shamanland_facebook_button_blue_focused_stroke">#375196</color>
+    <color name="com_shamanland_facebook_button_blue_pressed_start">#3b538e</color>
+    <color name="com_shamanland_facebook_button_blue_pressed_end">#425d9e</color>
+    <color name="com_shamanland_facebook_button_blue_pressed_stroke">#344a7e</color>
+    <color name="com_shamanland_facebook_like_box_text_color">#898f9c</color>
+<!--     #2980b9 #8fff-->
+    <color name="com_shamanland_facebook_like_box_background_color">#8fff</color>
+    <color name="com_shamanland_facebook_like_text_color">#fff</color>
+    <color 
+        name="action_bar_background"
+        >#2980b9</color>
+    
+    
+      <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>   
+    
+    
+</resources>

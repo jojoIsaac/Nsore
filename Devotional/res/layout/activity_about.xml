@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="0dp"
+    android:background="@drawable/texturebg"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity" >
+
+     <RelativeLayout
+         android:id="@+id/relativeLayout2"
+         android:layout_width="match_parent"
+         android:layout_height="290dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:background="@drawable/bluebg"
+         android:gravity="bottom" >
+
+<!--         <RelativeLayout -->
+<!--             android:id="@+id/relativeLayout3" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentLeft="true" -->
+<!--             android:layout_alignParentTop="true" -->
+<!--             android:layout_marginLeft="68dp" > -->
+<!--         </RelativeLayout> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Version 1.0.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#FFF" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="© 2014 Appsol Info. Systems"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+     <View
+         android:id="@+id/divider"
+         android:layout_width="match_parent"
+         android:layout_height="20dp"
+         android:layout_above="@+id/relativeLayout2"
+         android:layout_alignParentLeft="true"
+         android:background="#eee" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="80dp"
+         android:src="@drawable/connect" />
+
+</RelativeLayout>

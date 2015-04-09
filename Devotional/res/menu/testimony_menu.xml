@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     >
+    <item android:id="@+id/mn_share_testimony" 
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+         android:title="Share Testimony"
+         android:icon="@drawable/ic_white_nsore_monolog"
+     app:showAsAction="ifRoom"></item>
+<!--      <item android:id="@+id/mn_refresh_testimony"  -->
+<!--         android:layout_height="wrap_content" android:layout_width="wrap_content" -->
+<!--          android:title="Refresh" -->
+<!--          android:icon="@drawable/refresh" -->
+<!--      app:showAsAction="ifRoom"></item> -->
+    
+
+</menu>

@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+     android:background="@drawable/appbg"
+    >
+<!-- 01073237586 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        >
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:background="#FFF"
+            android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+            <com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView
+                android:id="@+id/profilePic"
+                android:layout_width="@dimen/feed_item_profile_pics"
+                android:layout_height="@dimen/feed_item_profile_pics"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtdevotionTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="devotion Title"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/feed_item_profile_name"
+            android:textStyle="bold" />
+                 <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            
+            android:text="hello-hi"
+            android:textColor="@color/timestamp"
+            android:textSize="@dimen/feed_item_timestamp" />
+            </LinearLayout>
+
+            
+        </LinearLayout>
+       
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/emoji_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="4dp"
+        android:src="@drawable/smiley" />
+
+    <ImageView
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"
+        android:src="@drawable/ic_action_send_now" />
+
+    <github.ankushsachdeva.emojicon.EmojiconEditText
+        android:id="@+id/emojicon_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/submit_btn"
+        android:layout_toRightOf="@id/emoji_btn"
+        emojicon:emojiconSize="28sp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/emojicon_edit_text"
+  
+    android:layout_below="@+id/linearLayout1" >
+    
+      <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+       android:longClickable="true"
+       android:stackFromBottom="true"
+android:transcriptMode="alwaysScroll"
+         >
+    </ListView>
+</LinearLayout>
+   <ProgressBar
+     android:id="@+id/progressbarLoad"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:indeterminateDrawable="@drawable/loader_1" />
+
+</RelativeLayout>

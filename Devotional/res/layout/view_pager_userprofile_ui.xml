@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/appbg"
+    >
+ <LinearLayout
+        android:id="@+id/layoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:id="@+id/layout_cover_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/navigationbanner"
+        android:paddingTop="45dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        >
+
+        <com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView
+            android:id="@+id/userprofile"
+            android:layout_width="@dimen/feed_item_profile_picss"
+                android:layout_height="@dimen/feed_item_profile_picss"
+                  android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_launcher1" />
+
+        <TextView
+            android:id="@+id/txtuserfullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#FFF"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnconnect"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+     
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_nsore_add"
+            android:text="Add Friend"
+            android:padding="5dp"
+            android:textColor="@color/action_bar_background" />
+
+        <Button
+            android:id="@+id/shareTestimony"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         
+         
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_nsore_church_profile"
+            android:text="Followings"
+            android:padding="5dp"
+            android:textColor="@color/action_bar_background" />
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layoutmain"
+ 
+        android:orientation="vertical" >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+       
+    
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pagerTabStrip"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+           
+            android:textColor="#FFF"
+            android:background="#3498db"
+            android:layout_gravity="top" >
+        </android.support.v4.view.PagerTabStrip>
+    </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+</RelativeLayout>

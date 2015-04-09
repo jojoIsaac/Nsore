@@ -1,0 +1,233 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/texturebg"
+    >
+<!-- android:background="#E6E9ED"-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ 
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appsols.nsoredevotionalapp.ChurchBranchActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+         
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp" >
+
+            <com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView
+                android:id="@+id/imgprofile"
+                android:layout_width="@dimen/feed_item_profile_picss"
+                android:layout_height="@dimen/feed_item_profile_picss"
+                  android:scaleType="fitCenter"
+                android:layout_marginTop="2dp"
+                android:paddingBottom="5dp"
+              
+                  android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+                android:src="@drawable/mobile" />
+         
+
+
+        </LinearLayout>
+<TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:text="user full Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#222" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+         android:background="@drawable/roundlayout"
+            android:orientation="vertical"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/txtreadingsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cdabout"
+                android:text="Church"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+            
+             <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                android:id="@+id/divider"
+                />
+
+             <TextView
+         android:id="@+id/txtphone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="2dp"
+         android:text="05486969696"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:textColor="@color/text_color" />
+             <TextView
+                android:id="@+id/txttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:text="M Since"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+         android:background="@drawable/roundlayout"
+            android:orientation="vertical"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/txtw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cdwebsite"
+                android:text=" Mutual Friends"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                android:id="@+id/divider1"
+                />
+<TextView
+         android:id="@+id/txtemail"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="2dp"
+         android:text="05486969696"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:textColor="@color/text_color" />
+        </LinearLayout>
+        
+          
+ 
+          
+           <LinearLayout
+              android:id="@+id/layoutMenus"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/roundlayout"
+              android:orientation="vertical"
+              android:padding="6dp" >
+
+              
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+     <Button
+         android:id="@+id/btnconnect"
+         android:layout_width="wrap_content"
+         android:layout_height="32dp"
+         android:layout_marginRight="5dp"
+         android:layout_weight="0.50"
+         android:background="@drawable/flatlayout_blue"
+        
+         android:paddingLeft="10dp"
+         android:text="Connect"
+         android:textColor="#FFF" />
+
+<!--                 <Button -->
+<!--                     android:id="@+id/shareTestimony" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="32dp" -->
+<!--                     android:layout_weight="0.50" -->
+<!--                     android:background="@drawable/flatlayout" -->
+<!--                     android:drawableLeft="@drawable/testimonyshare" -->
+<!--                     android:paddingLeft="10dp" -->
+<!--                     android:text="" -->
+<!--                     android:textColor="#777" /> -->
+</LinearLayout>
+             
+          </LinearLayout>
+          
+          
+<!--             <LinearLayout -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentBottom="true" -->
+<!--                 android:layout_alignParentLeft="true" -->
+<!--                 android:layout_marginBottom="10dp" -->
+<!--                 android:layout_marginTop="10dp" -->
+<!--                 android:orientation="horizontal" > -->
+<!--  <Button -->
+<!--                     android:id="@+id/btneditprofile" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_marginLeft="8dp" -->
+<!--                     android:layout_weight="0.46" -->
+<!--                     android:background="@drawable/button_blue" -->
+<!--                     android:text="Edit Profile" -->
+<!--                     android:textColor="#FFF" /> -->
+
+<!--                 <Button -->
+<!--                     android:id="@+id/btnchangepassword" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_marginLeft="20dp" -->
+<!--                     android:layout_weight="0.31" -->
+<!--                     android:background="@drawable/button_red" -->
+<!--                     android:text="Change Password" -->
+<!--                     android:textColor="#FFF" /> -->
+       
+
+<!--     </LinearLayout> -->
+         
+
+    </LinearLayout>
+
+    
+ 
+ 
+ 
+ 
+</RelativeLayout>
+</ScrollView>
+
+
+

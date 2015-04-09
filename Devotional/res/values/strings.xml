@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="com_shamanland_facebook">Nsore Devotional</string>
+    <string name="com_shamanland_like">Like</string>
+    <string name="com_shamanland_share">Share</string>
+    <string name="com_shamanland_recommend">Recommend</string>
+    <string name="com_shamanland_facebook_like_box_text_default">0</string>
+    <string name="com_shamanland_facebook_like_activity_error">Action \'like\' could not be done</string>
+    <string name="app_name">Nsore Devotional</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_summary">Nsore Devotional</string>
+    <string name="about">About</string>
+    <string name="pick_summary">start with ACTION_PICK</string>
+    <string name="pick">Pick up a Date</string>
+    <string name="show_summary">start with ACTION_VIEW</string>
+    <string name="show">Show Calendar</string>
+    <string name="hint">Hint: touch the first or last day of month to move to previous or next month.</string>
+    <string name="app_id">1446908752238057</string>
+    <string name="facebook_app_id">1446908752238057</string>
+    <!-- <string name="app_name">Nsore Devotional</string> -->
+    <!-- <string name="action_settings">Settings</string> -->
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="write_here">Write here</string>
+    <string name="link">The Nsore devotional App is a free mobile Devotional Guide based on the <a href="http://www.nosre.appsolinfosystems.com"> nsore.appsolinfosystems.com </a> .The app offers a daily devotion, notes, bookmarks , social sharing and many more .</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news_item_details">NewsItemDetails</string>
+    <string name="description">Description</string>
+    <string name="project_title">Project Title</string>
+    <string name="time_line">Time Line</string>
+    <string name="project_timeline">Project Timeline</string>
+    <string name="coordinator">Coordinator</string>
+    <string name="project_head">Project Head</string>
+    <string name="news_source">News Source</string>
+    <string name="title_activity_profile_image">ProfileImageActivity</string>
+    <string name="title_activity_bookmark">BookmarkActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Log In</string>
+    <string name="copyright">Copyright | Nsore 2014</string>
+    <string name="title_activity_register">Register</string>
+    <string name="clear">Clear</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="title_activity_pick_church">PickChurchActivity</string>
+    <string name="save_record">Save Record</string>
+    <string name="_this_can_be_changed_later_at_the_settings_page_">*This Can be changed later from Settings</string>
+    <string name="user_displayname">User/Displayname</string>
+    <string name="title_activity_smain">SMainActivity</string>
+    <string name="documentation">Documentation</string>
+    <string name="title_activity_create_note">CreateNoteActivity</string>
+    <string name="you_don_t_have_any_notes_yet_">You don\'t have any notes yet!</string>
+    <string name="as_you_apos_re_reading_the_bible_when_you_feel_god_apos_s_still_small_voice_speaking_you_can_quickly_write_those_thoughts_here_">"As you&amp;apos;re reading the Bible, when  you feel God&amp;apos;s still, small voice speaking, you can quickly write those thoughts here "</string>
+    <string name="user_since_">"User Since: "</string>
+    <string name="_">_________</string>
+    <string name="the_name_of_user_will_appear_here">The Name of user will appear here</string>
+    <string name="small_text">Small Text</string>
+    <string name="you_don_apos_t_have_any_bookmark_yet">You don\'t have any bookmark yet</string>
+    <string name="title_activity_social_apps">SocialAppsActivity</string>
+    <string name="title_activity_announcements">Message</string>
+    <string name="event_page_message">Nsore devotional gives you the chance to know when and where a program is being hosted by your Church. The app will give you alerts and notifications when your program or event is near. We  believe this will help you stay up to date with all your church Activities</string>
+    <string name="nsore_events">Nsore Events</string>
+    <string name="title_activity_church_branch">ChurchBranchActivity</string>
+    <string name="title_activity_user_image">Profile Picture</string>
+    <string name="your_testimony_will_have_to_be_accepted_before_shared_with_others">Your Testimony will have to be accepted before shared with others</string>
+    <string name="event_title">Title</string>
+    <string name="event_details">Event Details</string>
+    <string name="event_date">Date</string>
+    <string name="event_time">6:45pm</string>
+    <string name="title_activity_history_list">Devotion History</string>
+    <string name="title_activity_event_details">Event Details</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="help_links">
+        <item>            Support Website</item>
+        <item>            Forgot Password</item>
+        <item>            Contact Support</item>
+    </string-array>
+    <string-array name="settings_page_menus">
+        <item>Subscription</item>
+        <item>Join Church</item>
+        <item>Notifications</item>
+        <item>Change Password</item>
+        <item>Forgot Password</item>
+        <item>FAQ</item>
+        <item>About</item>
+        <!-- <item>Donate</item> -->
+        <item>Clear All Data</item>
+    </string-array>
+    <string-array name="General_Settings_page_menus">
+        <item>Change Church</item>
+        <item>Notifications</item>
+
+        <!-- <item>Clear All Data</item> -->
+        <!-- <item>Help</item> -->
+        <!-- <item>About</item> -->
+    </string-array>
+    <string-array name="About_page_menus">
+        <item>Rate Nsore Devotional</item>
+        <item>Terms of Usage</item>
+        <item>Privacy Policy</item>
+        <item>Donate</item>
+        <item>Comment</item>
+        <item>Development Team</item>
+    </string-array>
+    <string-array name="nav_top_menu">
+        <item>Devotion</item>
+        <item>Bookmarks</item>
+        <item>Notes</item>
+        <!-- <item>Media</item> -->
+        <item>Testimonies</item>
+        <item>Events</item>
+        <item>Announcements</item>
+        <item>Prayer Requests</item>
+        <item>My Account</item>
+        <item>Profile</item>
+        <item>Church Details</item>
+        <item>Connections</item>
+        <item>Share</item>
+        <item>Settings</item>
+    </string-array>
+
+    <array name="nav_top_menu_icons">
+        <item>@drawable/ic_nsore_devotions</item>
+        <item>@drawable/ic_nsore_bookmarks</item>
+        <item>@drawable/ic_nsore_notes</item>
+        <!-- <item>@drawable/youtube</item> -->
+        <item>@drawable/ic_nsore_testimony</item>
+        <item>@drawable/eventico</item>
+        <item>@drawable/ic_nsore_announcement</item>
+        <item>@drawable/ic_nsore_prayer_line</item>
+        <item>@drawable/myrecord</item>
+        <item>@drawable/ic_nsore_profile</item>
+        <!-- <item>@drawable/about</item> -->
+        <item>@drawable/ic_nsore_church_profile</item>
+        <item>@drawable/ic_nsore_group</item>
+        <item>@drawable/ic_nsore_share</item>
+        <item>@drawable/ic_nsore_settings</item>
+    </array>
+
+    <string name="title_activity_launch">Nsore Devotional</string>
+    <string name="title_activity_registeration">Create Account</string>
+    <string name="sorry_no_devotional_history_found_">Sorry no Devotional History Found.</string>
+    <string name="title_activity_devotion_detail">Devotion</string>
+    <string name="title_activity_church_leader_details">Leader Profile</string>
+    <string name="title_activity_branch_detail">Branch Profile</string>
+    <string name="title_activity_expandable">ExpandableActivity</string>
+    <string name="title_activity_userprofile_image">Profile Image</string>
+    <string name="title_activity_verify_cation">Nsore Devotional</string>
+    <!-- Notification menu -->
+
+    <string name="title_activity_my_events">My Events Activity</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_share">Share Nsore Devotional</string>
+    <string name="title_activity_choose_church">Choose Church</string>
+    <string name="title_activity_subscription">Follow</string>
+    <string name="title_activity_subs_church_details">Church Details</string>
+    <string name="title_activity_subscribed_devotions">Church Devotions</string>
+    <string name="title_activity_devotion_discussions">Devotion Discussion</string>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+    <string name="title_activity_face_book_sign">FaceBookSignActivity</string>
+    <string name="_054869696963">054869696963</string>
+    <string name="action_resend">Resend</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_church_groups">ChurchGroupsActivity</string>
+    <string name="title_activity_group_details">GroupDetailsActivity</string>
+    <string name="title_activity_branch_weekly_activities">Branch Weekly Activities</string>
+
+    <!-- Added for the contact searching -->
+    <string name="activity_contacts_list">Contacts List</string>
+    <string name="activity_contact_detail">Contact Detail</string>
+    <string name="contacts_list_search_results_title">Contacts List Search for \"%s\"</string>
+    <string name="app_description">This is a sample app, demonstrating use of the Android system Contacts Provider.</string>
+    <string name="imageview_description">Contact Thumbnail</string>
+    <string name="address_button_description">View Address</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Add Contact</string>
+    <string name="menu_edit_contact">Edit Contact</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="no_contact_selected">No Contact Selected</string>
+    <string name="search_hint">Find contacts</string>
+
+    <!--
+         Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+         alphabet using ListView fast scroll.
+    -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--
+         When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.
+    -->
+    <string name="search_match_other">Matches Other Field</string>
+    <string name="no_address">No addresses found</string>
+    <string name="no_intent_found">No application found to handle this action</string>
+    <string name="title_activity_postto_nsore_group">Post to Nsore Group</string>
+    <string name="title_activity_post_details">Post Details</string>
+
+</resources>

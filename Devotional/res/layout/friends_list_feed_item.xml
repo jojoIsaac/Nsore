@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+ <!--         android:layout_marginLeft="@dimen/feed_item_margin" -->
+<!--         android:layout_marginRight="@dimen/feed_item_margin" -->
+<!--         android:layout_marginTop="@dimen/feed_item_margin" -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+ 
+       
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:orientation="vertical"
+       
+        android:paddingTop="5dp" >
+ 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/feed_item_padding_left_right"
+             >
+
+            <com.appsol.apps.projectcommunicate.classes.CircularNetworkImageView
+                android:id="@+id/profilePic"
+                android:layout_width="@dimen/feed_item_profile_pics"
+                android:layout_height="@dimen/feed_item_profile_pics"
+                android:scaleType="fitCenter" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/feed_item_profile_info_padd" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rhed Jhedediah Zane Nocum"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtchurchname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello-hi"
+                    android:textColor="@color/timestamp"
+                    android:textSize="@dimen/feed_item_timestamp" />
+
+                
+                <TextView
+                    android:id="@+id/timestamp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello-hi"
+                    android:textColor="@color/timestamp"
+                    android:textSize="@dimen/feed_item_timestamp" />
+            </LinearLayout>
+
+<!--             <Button -->
+<!--                 android:id="@+id/shareTestimony" -->
+<!--                 android:layout_width="42dp" -->
+<!--                 android:layout_height="32dp" -->
+<!--                 android:background="@drawable/flatlayout" -->
+<!--                 android:drawableLeft="@drawable/testimonyshare" -->
+<!--                 android:paddingLeft="10dp" -->
+<!--                 android:text="Send Request" -->
+<!--                 android:textColor="#777" /> -->
+
+            <Button
+                android:id="@+id/btnConnect"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="In connection"
+                 android:textStyle="bold"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+<!--  <TextView -->
+<!--             android:id="@+id/txttitle" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:paddingBottom="5dp" -->
+<!--             android:text="description" -->
+<!--             android:textStyle="bold" -->
+            
+<!--             android:paddingLeft="@dimen/feed_item_status_pad_left_right" -->
+<!--             android:paddingRight="@dimen/feed_item_status_pad_left_right" -->
+<!--             android:paddingTop="5dp" /> -->
+       
+
+        
+
+<!--         <TextView -->
+<!--             android:id="@+id/txtUrl" -->
+<!--             android:layout_width="141dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_gravity="right" -->
+<!--             android:linksClickable="true" -->
+<!--             android:paddingBottom="10dp" -->
+<!--             android:paddingLeft="@dimen/feed_item_status_pad_left_right" -->
+<!--             android:paddingRight="@dimen/feed_item_status_pad_left_right" -->
+<!--             android:text="tyrue" /> -->
+        
+        <LinearLayout
+            android:id="@+id/layout_share_like"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+              
+           
+            android:orientation="horizontal" >
+           
+  <TextView
+      android:id="@+id/txtMutualFriends"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:text="Mutual Friends: "
+      android:textColor="@color/timestamp"
+      android:layout_weight="0.5"
+      android:textSize="@dimen/feed_item_timestamp" />
+  
+  <TextView
+      android:id="@+id/txttotal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right"
+      android:layout_marginLeft="5dp"
+      android:layout_weight="0.5"
+      android:text="Total Friends: "
+      android:textColor="@color/timestamp"
+      android:textSize="@dimen/feed_item_timestamp" />
+
+</LinearLayout>
+
+        
+    </LinearLayout>
+ 
+</LinearLayout>

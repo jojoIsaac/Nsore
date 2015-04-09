@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="@drawable/appbg"
+    tools:context="com.appsol.apps.nsoredevotional.NotesFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+   
+   
+
+    
+
+<LinearLayout 
+    android:id="@+id/empty_notes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal"
+    android:paddingTop="30dp" >
+
+    <ImageView
+        android:id="@+id/imgeventBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/noteflat" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_don_t_have_any_notes_yet_"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/txtdevotionstatus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:padding="5dp"
+    android:text="As you\&apos;re reading the Bible, when  you feel God\&apos;s still, small voice speaking, you can quickly write those thoughts here "
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<Button
+    android:id="@+id/btnx"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="40dp"
+    android:background="#333"
+    android:drawableLeft="@drawable/ic_white_nsore_edit"
+    android:text="Add your first note"
+    android:padding="5dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#FFF" />
+
+</LinearLayout>
+ <ListView
+        android:id="@+id/lstbookmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:dividerHeight="1dp"
+       >
+    </ListView>
+
+<!--  <Button -->
+<!--      android:id="@+id/btnnew" -->
+<!--      android:layout_width="match_parent" -->
+<!--      android:layout_height="wrap_content" -->
+<!--      android:layout_alignParentBottom="true" -->
+<!--      android:layout_marginBottom="5dp" -->
+ 
+<!--      android:background="#333" -->
+<!--      android:drawableLeft="@drawable/add_notes" -->
+<!--      android:text="Add Note" -->
+<!--      android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!--      android:textColor="#FFF" /> -->
+        
+</RelativeLayout>
+    
+

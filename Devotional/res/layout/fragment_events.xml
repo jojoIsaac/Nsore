@@ -1,0 +1,55 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/appbg"
+    >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appsol.apps.nsoredevotional.EventsFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        
+        <!-- android:text="Nsore gives you a way to interact with Events organized by your selected church. You can " -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+      android:id="@+id/lstTestimonies"
+     TODO: Update blank fragment layout -->
+
+    <ListView
+      android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.24" >
+    </ListView>
+
+</LinearLayout>
+ <!-- <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        andr
+        android:alpha="0.4"
+        android:src="@drawable/nd" />
+	 -->
+
+</RelativeLayout>

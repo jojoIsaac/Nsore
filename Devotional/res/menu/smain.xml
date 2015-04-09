@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsols.nsoredevotionalapp.SMainActivity" >
+    <item android:id="@+id/mn_share_"
+        android:showAsAction="ifRoom"
+         app:showAsAction="ifRoom"
+        android:title="Refresh"
+        android:icon="@android:drawable/ic_menu_share"
+        ></item>
+<!--      <item android:id="@+id/mn_delete" -->
+<!--        app:showAsAction="ifRoom" -->
+       
+<!--         android:title="Bookmark Message" -->
+<!--          android:showAsAction="ifRoom" -->
+<!--         android:icon="@android:drawable/ic_input_get" -->
+<!--         ></item> -->
+    
+
+</menu>

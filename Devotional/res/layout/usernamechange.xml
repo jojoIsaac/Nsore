@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:id="@+id/lReg"
+  android:background="@drawable/texturebg"
+    tools:context="com.appsol.apps.nsoredevotional.RegisterActivity$PlaceholderFragment" 
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"
+      android:background="#FFF"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+
+
+        <EditText
+           android:id="@+id/txtusername"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/passwordtextbox001"
+          android:textSize="20sp"
+           android:hint="Username" />
+
+       <Button
+           android:id="@+id/btnregister"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="10dp"
+           android:background="#000"
+           android:text="Update Profile"
+           android:textColor="#FFF" />
+ <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#eee" />
+    </LinearLayout>
+
+ 
+ 
+</RelativeLayout>

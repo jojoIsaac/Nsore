@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/appbg"
+    android:orientation="vertical"
+    tools:context="com.appsol.apps.nsoredevotional.SettingsFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/lstSettings"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.85" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnChurch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_red"
+        android:text="Sign Out"
+        android:textColor="#FFF" />
+
+</LinearLayout>

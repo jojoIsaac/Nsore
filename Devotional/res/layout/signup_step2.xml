@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/appbg"
+
+    >
+
+
+
+
+
+
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout  android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:background="@android:drawable/btn_default"
+            android:id="@+id/countries_linear_layout"
+            android:layout_marginTop="100dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/imgViewFlag"
+                android:layout_height="24dp"
+                android:layout_width="27dp"
+
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/txtViewCountryName"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_edit_box"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:id="@+id/txtccode"
+            android:hint=""
+            android:layout_marginRight="-10dp"
+            android:layout_marginTop="1dp"
+
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@drawable/edit_box_phone_comp"
+            android:layout_marginBottom="0dp"
+
+            />
+        <AutoCompleteTextView android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:textSize="18sp"
+            android:layout_weight="20"
+            android:background="@drawable/edit_box_phone_comp"
+            android:layout_marginBottom="0dp"
+
+            android:inputType="text|phone" android:maxLines="1"
+            android:singleLine="true" />
+
+    </LinearLayout>
+                <AutoCompleteTextView android:id="@+id/email" android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/rounded_edit_box"
+                    android:inputType="textPersonName" android:maxLines="1"
+                    android:singleLine="true" />
+
+
+
+
+
+
+
+            </LinearLayout>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Step 2/5"
+         android:layout_centerHorizontal="true"
+        android:textColor="#2c3e50"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button android:id="@+id/prev_button" style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="16dp"
+            android:text="Prev"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rounded_btn_sign_up"
+
+            android:textColor="#4aafff"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+        <Button android:id="@+id/next_button" style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Next"
+
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounded_btn_sign_up"
+
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
